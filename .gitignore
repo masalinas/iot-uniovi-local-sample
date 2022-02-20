@@ -1,0 +1,8 @@
+# ignore IoT service files
+
+broker/node_modules
+
+node-red/node_modules
+node-red/node-red-data
+
+
