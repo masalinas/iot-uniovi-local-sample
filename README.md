@@ -56,4 +56,4 @@ Excute this command to generate a new node-RED password hashed and configure the
 node-red-admin hash-pw
 ```
 
-The default password configured it's **admin/password**.
+The default password configured it's **admin/password**
