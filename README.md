@@ -21,16 +21,16 @@ To start node-RED service execute these commands:
 ```shell
 cd node-red
 npm install
-npm runn start
+npm run start
 ```
 
-If we want secure our node-RED service we must install node-red-admin package
+If we want **securize** our node-RED service we must install node-red-admin package previously to creare a default admin password
 
 ```shell
 npm install -g --unsafe-perm node-red-admin
 ```
 
-Excute this command generate a new password hashed and configure the settings correctly
+Excute this command to generate a new node-RED password hashed and configure the settings correctly:
 
 ```shell
 node-red-admin hash-pw
