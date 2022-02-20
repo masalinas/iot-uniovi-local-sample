@@ -38,7 +38,11 @@ node-red-admin hash-pw
 
 ## Test Broker from shell
 
-To test the broker form shell we could use the MQTT clients **mqtt_sub** and **mqtt_pub** shell clients.
+To test the broker form shell we could use the MQTT clients **mqtt_sub** and **mqtt_pub** shell clients. To install these clients executed this command from shell:
+
+```shell
+sudo apt-get install mosquitto-clients
+```
 
 To subscribe to a topic called 'test' in localhost
 
