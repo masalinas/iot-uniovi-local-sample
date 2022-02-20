@@ -8,7 +8,7 @@ We are using a nodeJS MQTT broker implementation by [Aedes](https://github.com/m
 
 To start MQTT Broker service execute these commands:
 
-```shellAed
+```shell
 cd broker
 npm install
 node .
