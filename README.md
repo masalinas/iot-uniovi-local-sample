@@ -14,7 +14,7 @@ npm install
 node .
 ```
 
-## Test Broker from shell
+## Test MQTT message broker service from shell
 
 To test the broker form shell we could use the MQTT clients **mqtt_sub** and **mqtt_pub** shell clients. To install these clients executed this command from shell:
 
