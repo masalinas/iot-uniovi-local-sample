@@ -44,7 +44,7 @@ npm install
 npm run start
 ```
 
-If we want **securize** our node-RED service we must install node-red-admin package previously to creare a default admin password. The default password configured it's **admin/password**.
+If we want **securize** our node-RED service we must install node-red-admin package previously to creare a default admin password.
 
 ```shell
 npm install -g --unsafe-perm node-red-admin
@@ -55,3 +55,5 @@ Excute this command to generate a new node-RED password hashed and configure the
 ```shell
 node-red-admin hash-pw
 ```
+
+The default password configured it's **admin/password**.
