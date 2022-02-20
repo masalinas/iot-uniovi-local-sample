@@ -14,6 +14,26 @@ npm install
 node .
 ```
 
+## Test Broker from shell
+
+To test the broker form shell we could use the MQTT clients **mqtt_sub** and **mqtt_pub** shell clients. To install these clients executed this command from shell:
+
+```shell
+sudo apt-get install mosquitto-clients
+```
+
+To subscribe to a topic called 'test' in localhost
+
+```shell
+mqtt_sub -h localhost -t test
+```
+
+To published a message to a topic 'test' in localhost qith QoS 1
+
+```shell
+mqtt_pub -h localhost -t test -q 1 -m 'Hello IoT from shell'
+```
+
 ## Install node-RED service
 
 To start node-RED service execute these commands:
@@ -34,24 +54,4 @@ Excute this command to generate a new node-RED password hashed and configure the
 
 ```shell
 node-red-admin hash-pw
-```
-
-## Test Broker from shell
-
-To test the broker form shell we could use the MQTT clients **mqtt_sub** and **mqtt_pub** shell clients. To install these clients executed this command from shell:
-
-```shell
-sudo apt-get install mosquitto-clients
-```
-
-To subscribe to a topic called 'test' in localhost
-
-```shell
-mqtt_sub -h localhost -t test
-```
-
-To published a message to a topic 'test' in localhost qith QoS 1
-
-```shell
-mqtt_pub -h localhost -t test -q 1 -m 'Hello IoT from shell'
 ```
