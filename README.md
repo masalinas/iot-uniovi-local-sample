@@ -28,7 +28,7 @@ To subscribe to a topic called 'test' in localhost
 mqtt_sub -h localhost -t test
 ```
 
-To published a message to a topic 'test' in localhost qith QoS 1
+To published a message to a topic called 'test' in localhost with Quality of Service 1
 
 ```shell
 mqtt_pub -h localhost -t test -q 1 -m 'Hello IoT from shell'
