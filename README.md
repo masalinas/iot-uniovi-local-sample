@@ -1,6 +1,6 @@
 # Description
 
-IoT MQTT Local Sample
+IoT Local Samples from MQTT and node-RED services
 
 ## Install MQTT message broker service
 
